@@ -1,0 +1,24 @@
+{
+  "name": "lunch-scheduler",
+  "version": "1.0.0",
+  "description": "Automatic sheduler for lunch",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "node_modules/db-migrate/bin/db-migrate up",
+    "start": "node_modules/zero/bin/zero"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "latest",
+    "classnames": "latest",
+    "db-migrate": "latest",
+    "db-migrate-sqlite3": "latest",
+    "lodash": "latest",
+    "react-redux": "latest",
+    "redux": "latest",
+    "sqlite3": "^4.0.9",
+    "uuid": "latest",
+    "zero": "^1.0.17"
+  }
+}
