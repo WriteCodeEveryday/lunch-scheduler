@@ -19,6 +19,6 @@
     "redux": "latest",
     "sqlite3": "^4.0.9",
     "uuid": "latest",
-    "zero": "^1.0.17"
+    "zero": "^1.1.22"
   }
 }
